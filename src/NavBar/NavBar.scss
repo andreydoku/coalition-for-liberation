@@ -1,0 +1,46 @@
+.nav-bar{
+	
+	background-color:  var(--theme-green);
+	height: 70px;
+	//padding: 0px 20px;
+	
+	.inner-container{
+		
+		height: 100%;
+		
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+		color: white;
+		font-size: 20px;
+		font-weight: 500;
+		
+		.left{
+			
+		}
+		.center{
+			display: flex;
+			gap: 30px;
+		}
+		.right{
+			
+		}
+		
+	}
+}
+
+.nav-bar .nav-link{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	
+	transition: background-color 0.2s ease-out;
+	background-color: transparent;
+    padding: 10px 10px;
+	line-height: 1;
+	
+}
+.nav-bar .nav-link:hover{
+	background-color: rgba(255,255,255 , 0.25);
+}

@@ -1,0 +1,70 @@
+
+:root{
+	--theme-red:   #E4312b;
+	--theme-black: #000000;
+	--theme-white: #FFFFFF;
+	--theme-green: #149954;
+	
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	
+	margin: 0;
+	display: flex;
+	min-width: 320px;
+	min-height: 100vh;
+	
+	color: #242424;
+	background-color: #f7f7f7;
+	
+	#root {
+		font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+		line-height: 1.5;
+		font-weight: 400;
+	
+		display: grid;
+		grid-template-rows: 70px 1fr;
+		
+		width: 100%;
+		
+		
+		main{
+			padding-bottom: 40px;
+		}
+		
+		
+	}
+	
+	
+}
+
+button{
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,p{
+	margin: 0;
+	line-height: 1;
+}
+
+h1 {
+	font-size: 60px;
+}
+h2{
+	font-size: 45px;
+}
+h3{
+	font-size: 30px;
+}
+p, a{
+	font-size: 20px;
+}
+
+
+img{
+	width: 100%;
+}
